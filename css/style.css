@@ -1,0 +1,448 @@
+/*aituku dewa jay, but vai aita follow kore na, onekei kore. vai body te margin padding 0 recommend kortese.
+*{
+	margin:0;
+	padding: 0;
+}*/
+body{
+	margin:0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0px;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}   
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 62px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+    padding: 0px 20px;
+    display: inline-block;
+    transition: .3s;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	/*background-position: top left;
+	background-position: bottom left;*/
+}
+.b_content{
+	width: 50%;
+	/*border: 1px solid red;*/
+	margin-top: 200px;
+	margin-bottom: 90px;
+	/*background-color: rgba(11,11,11,.5);*/
+}
+.b_content h1{
+	font-family:sans-serif;  
+	font-weight:400;
+	font-size:35px; 
+	color:white;
+	text-transform: capitalize;
+	margin:0;
+	/*font-family:  
+	font-weight:;
+	font-size: 
+	color:;
+	ai serial ta alws maintain kora lagbe.*/
+}
+.b_content h2{
+	font-family:sans-serif;  
+	/*font-weight:700;
+	aita or normal weight*/
+	font-size:48px; 
+	color:#0078BD;
+	text-transform: capitalize;
+	margin:0;
+}
+.b_content p{
+	font-family:sans-serif;  
+	/*font-weight:400;
+	or normal weight 400
+	font-size:16px; */
+	color:white;
+	margin:0;
+	line-height:25px ;
+	/*letter-spacing: ;
+	word-spacing: 
+	word spacing normally 0px thake*/
+}
+.b_content button{
+	width: 220px;
+	height: 50px;
+	margin-top: 20px;
+	font-family:sans-serif;  
+	font-size:22px; 
+	color:#5A5A5A;
+	text-transform: uppercase;
+	background-color:white;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .3s;
+} 
+.b_content button:hover{
+	color:#0078BD;
+}
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121b2c;
+	padding: 30px 0px 10px;
+}
+.single{
+	width: 29%;
+	/*border: 1px solid red;*/
+	border-right: 1px solid white;
+	padding: 20px 2.1% 30px;
+	/*padding left right e 15px dewar jonno aita akhon r 30% e nai, bere gese. */
+	float: left;
+	/*margin-right: 33px;*/
+	/*margin diye kora jay, but responsive hoy na. tai padding e percentage diye kaj korbo.*/
+}
+.single:last-child{
+	/*margin-right: 0px;*/
+	border-right: 0px;
+}
+.top{
+	overflow: hidden;
+}
+.t_img{
+	width: 25%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.t_img img{
+	width: 100%;
+}
+.t_text{
+	width: 60%;
+	/*border: 1px solid red;*/
+	float: left;
+	/*.t_img and t_text 2 take float left korsi. normally 2 ta element thakle float right akta arekta float left kore, but aikhane 2 ta e float left korsi. coz text gulare float right korle, ora ekdom dane choila jaito, majkhane onek jayga faka raikha. but real pic e ato faka nai ai 2 tar moddhe.*/
+	margin-top: 30px;
+}
+.t_text h2{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 23px;
+	color: white;
+	margin:0;
+}
+.t_text h3{
+	font-family: sans-serif;
+	font-size: 24px;
+	text-transform: capitalize;
+	color: #017bbc;
+	margin:0;
+}
+.t_text h2:last-child{
+	margin-top: 25px;
+}
+.t_text span{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #017bbc;
+	margin:0;
+}
+.bottom{
+	margin-top: 20px;
+}
+.bottom p{
+	font-family: sans-serif;
+	/*font-weight: 400;
+	font-size: 16px;*/
+	color: white;
+	margin:0;
+	line-height: 25px;
+}
+/*service end*/
+/*contact start*/
+.contact{
+	background-color: #040811;
+	padding-top: 30px;
+	padding-bottom: 1px;
+}
+.wrapper_two{
+	width: 72%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.single_contact1{
+	width: 32%;
+	/*border: 1px solid white;*/
+	padding: 35px 0px 82px;
+	float: left;
+}
+.top_contact1{
+	
+}
+.top_contact1 h4{
+	font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 0;
+}
+.top_contact1 span{
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #017bbc;
+	margin:0;
+}
+.top_contact1 p{
+	font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    margin: 12px 0px 0px;
+    line-height: 15px;
+}
+.bottom_contact1{}
+.bottom_contact1 p{
+	font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    margin: 12px 0px 0px;
+}
+.single_contact2{
+	width: 32%;
+	/*border: 1px solid white;*/
+	padding-bottom: 48px;
+	float: left;
+}
+/*.top_contact2{
+	background-color: rgba(105,105,105,.4);
+	padding: 30px 15px;
+}
+.top_contact2 h4{
+	font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 0;
+}
+.top_contact2 span{
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #017bbc;
+	margin:0;
+}
+.top_contact2 p{
+	font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    margin: 12px 0px 0px;
+    line-height: 15px;
+}*/
+#talkbubble {
+   	width: 60%;
+    height: 30%;
+    background-color: rgba(105,105,105,.4);
+    padding: 25px;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#talkbubble h4{
+	font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 0;
+}
+#talkbubble span{
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #017bbc;
+	margin:0;
+}
+#talkbubble p{
+	font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    margin: 12px 0px 0px;
+    line-height: 15px;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 20%;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 48px solid transparent;
+    border-top: 20px solid rgba(105,105,105,.4);;
+}
+.bottom_contact2{
+	padding: 0px 15px;
+	margin-top: 22px;
+}
+.bottom_contact2 p{
+	font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    margin: 12px 0px 0px;
+    line-height: 15px;
+}
+.single_contact3{
+	width: 36%;
+	/*border: 1px solid white;*/
+	padding-bottom: 4px;
+	float: left;
+	overflow: hidden;
+}
+.left_content{
+	float: left;
+}
+.left_content img{
+	width: 100%;
+}
+.right_content{
+	float: left;
+}
+.right_content_text{
+	margin: 10px 0px;
+}
+.right_content_text h3{
+	font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 0px 0px 10px;
+}
+.right_content_text h4{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #017bbc;
+	margin: 0px;
+}
+.right_content_image{}
+.right_content_image img{
+	width: 100%;
+}
+/*contact end*/
+footer{
+	background-color: #121B2C;
+	padding-bottom: 20px;
+}
+.footer_left{
+	width: 48%;
+	float: left;
+	/*border:1px solid white;*/
+	margin-left: 10px;
+	padding-bottom: 26px;
+}
+.menu2{}
+.menu2 ul{
+	float: left;
+	padding: 0px;
+}
+.menu2 ul li {
+	list-style: none;
+	float: left;
+}
+.menu2 ul li a{
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	text-transform: capitalize;
+    padding: 0px 18px;
+    display: inline-block;
+    transition: .3s;
+    border-right: 1px solid white;
+}
+.menu2 ul li:last-child a{
+	border-right: 0px;
+}
+.menu2 ul li:first-child a{
+	padding-left: 0px;
+}
+.footer_p{}
+.footer_p p{
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 10px;
+	color: white;
+}
+.footer_right{
+	width: 42%;
+	float: right;
+	/*border:1px solid white;*/
+	overflow: hidden;
+	margin-right: 10px;
+}
+.logo_left{
+	width: 40%;
+	float: left;
+	margin-right: 18px;
+}
+.logo_left img{
+	width: 100%;
+}
+.logo_right{
+	width: 40%;
+	float: left;
+}
+.logo_right img{
+	width: 100%;
+}
